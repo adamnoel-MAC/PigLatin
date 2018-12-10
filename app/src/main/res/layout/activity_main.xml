@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phrase"/>
+
+    <Button
+        android:id="@+id/btnXlate"
+        android:text="Translate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <TextView
+        android:id="@+id/tvTranslation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Ellohay Orldway!"/>
+
+</LinearLayout>
