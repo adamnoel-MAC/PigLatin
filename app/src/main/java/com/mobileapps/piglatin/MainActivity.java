@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                         newword = false;
                     } else { // 2nd+ char
-                        if (end.length() > 0) { // if building new ending
+                        if (end.length() > 0 && !newenddone) { // if building new ending
                             switch (currLetter) {
                                 case 'a':
                                 case 'e':
